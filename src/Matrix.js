@@ -25,7 +25,7 @@ export default class Matrix extends Component {
     vals.map((val, idx) => <Cell key={idx} color={val} getSelectedColor={this.getSelectedColor}/>)
 
     vals.map((val, idx) => <Cell key={idx} color={val} getSelectedColor={this.getSelectedColor} />) // replace me and render a cell component instead!
-    
+
   )
 
   genMatrix = () => (
